@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+
+processResources {
+    from('src/main/resources/') {
+        include 'config.yml'
+        include 'plugin.yml'
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+group 'com.tuershen'
+version '1.0-RELEASE'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}

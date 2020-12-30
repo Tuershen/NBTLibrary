@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="NBTLibrary" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cb12e52-284f-4fd6-a1c6-1099a4af8ab1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NBTEditPanel/.idea/libraries/NBTLibrary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/.idea/libraries/Uranium_1710_dev_5_B287_4e9e823_server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/.idea/libraries/mcpc_plus_1_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/NBTEditPanel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/NBTEditPanel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/NBTEditPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/NBTEditPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/command/BaseCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/command/BaseCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/CompoundLibraryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/annotation/TagAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/api/CompoundLibraryApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/api/EntityNBTTagCompoundApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/api/NBTTagCompoundApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/api/SerializableItemApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/api/TileEntityCompoundApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/CraftItemStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/MinecraftItemStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/PluginManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64$DecInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64$Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64$EncOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64$Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTSettingEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound$NBTTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/DifferenceCompoundEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_10_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_11_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_12_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_6_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_7_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_7_R4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_8_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_9_R1_R2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/io/SerializableFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/io/SerializableStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AbstractMinecraftEntityTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaLoadTileEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AreaTileEntityEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_10_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_11_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_12_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_6_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_7_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_7_R4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_8_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_9_R1_R2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AbstractMinecraftEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaEntityEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AreaLoadEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_10_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_11_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_12_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_6_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_7_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_7_R4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_8_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_9_R1_R2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AbstractMinecraftItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaItemEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AreaLoadItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_10_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_11_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_12_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_6_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_7_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_7_R4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_8_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_9_R1_R2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AbstractMinecraftNBTTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaLoadNBTTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AreaNBTTagEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagByteArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagCompound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagFloat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagIntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagLongArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagShort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_10_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_11_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_12_R1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_6_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_7_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_8_R1_R2_R3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_9_R1_R2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v_1_7_R4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/AbstractTagList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagByteArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagCompound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagFloat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagIntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagLongArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagShort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/world/AbstractWorldData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/event/HandleMessagesEntityEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/event/HandleMessagesEntityEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/event/HandleMessagesEntityTileEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/event/HandleMessagesEntityTileEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/event/HandleMessagesItemEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/event/HandleMessagesItemEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/AbstractEditManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/AbstractEditManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NBTTagApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NBTTagApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/function/handle/NewNBTTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/listener/PlayerClickBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/listener/PlayerClickBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/listener/PlayerClickEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/listener/PlayerClickEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/AbstractEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/AbstractEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/AbstractPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/AbstractPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntityTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntityTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/entity/EditArrayEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/entity/EditArrayEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/entity/EditCompoundEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/entity/EditCompoundEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/item/EditArrayItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/item/EditArrayItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/item/EditCompoundItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/item/EditCompoundItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/item/EditNumericalArrayItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/item/EditNumericalArrayItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/tile/EditArrayEntityTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/tile/EditArrayEntityTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/tile/EditCompoundEntityTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/panel/edit/tile/EditCompoundEntityTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/EditPanelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/EditPanelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/BukkitEventHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/BukkitEventHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/CreatePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/CreatePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/handle/HandleNewPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonPromptMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/ButtonPromptMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/NewSingleNBT$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/SingleNBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/SingleNBT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/out/production/NBTEditPanel/pers/tuershen/nbtedit/setting/type/TagBaseStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/NBTEditPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/NBTEditPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/command/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/command/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/CompoundLibraryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/annotation/TagAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/api/CompoundLibraryApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/api/EntityNBTTagCompoundApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/api/NBTTagCompoundApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/api/SerializableItemApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/api/TileEntityCompoundApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/CraftItemStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/MinecraftItemStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/PluginManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/code/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/AbstractNBTTagCompound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_10_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_11_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_12_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_6_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_7_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_7_R4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_8_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/imp/difference/NBTImp_v1_9_R1_R2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/io/SerializableFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/io/SerializableStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/AbstractMinecraftEntityTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_10_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_11_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_12_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_6_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_7_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_7_R4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_8_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/block/difference/TileEntity_v1_9_R1_R2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/AbstractMinecraftEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_10_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_11_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_12_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_6_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_7_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_7_R4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_8_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/entity/difference/Entity_v1_9_R1_R2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/AbstractMinecraftItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_10_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_11_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_12_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_6_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_7_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_7_R4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_8_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/item/difference/Item_v1_9_R1_R2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/AbstractMinecraftNBTTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagByte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagByteArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagCompound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagFloat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagIntArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagLongArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagShort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/TagString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_10_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_11_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_12_R1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_6_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_7_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_8_R1_R2_R3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v1_9_R1_R2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/difference/NBT_v_1_7_R4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/AbstractTagList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagByte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagByteArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagCompound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagFloat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagIntArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagLongArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagShort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/nbt/v1122above/TagString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/compoundlibrary/nms/minecraft/world/AbstractWorldData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/event/HandleMessagesEntityEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/event/HandleMessagesEntityEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/event/HandleMessagesEntityTileEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/event/HandleMessagesEntityTileEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/event/HandleMessagesItemEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/event/HandleMessagesItemEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/function/AbstractEditManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/function/AbstractEditManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/function/handle/NewNBTTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/function/handle/NewNBTTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/listener/PlayerClickBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/listener/PlayerClickBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/listener/PlayerClickEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/listener/PlayerClickEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/AbstractEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/AbstractEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/AbstractPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/AbstractPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntityTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditEntityTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/AbstractPanelEditItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/entity/EditArrayEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/entity/EditArrayEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/entity/EditCompoundEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/entity/EditCompoundEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/item/EditArrayItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/item/EditArrayItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/item/EditCompoundItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/item/EditCompoundItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/item/EditNumericalArrayItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/item/EditNumericalArrayItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/tile/EditArrayEntityTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/tile/EditArrayEntityTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/tile/EditCompoundEntityTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/panel/edit/tile/EditCompoundEntityTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/EditPanelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/EditPanelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/BukkitEventHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/BukkitEventHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/CreatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/CreatePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/EditPanelManagerEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/HandleNewPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/handle/HandleNewPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/type/ButtonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/type/ButtonEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/type/NewSingleNBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/type/NewSingleNBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/type/TagBaseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NBTEditPanel/src/pers/tuershen/nbtedit/setting/type/TagBaseEnum.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../NBTEditPanel">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NBTLibrary" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../NBTEditPanel" />
+  </component>
+  <component name="ProjectId" id="1mHGzr71OSCSHLlbVlBimyGh0gv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/tuershen/nbtlibrary" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16210938" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tuershen\Desktop\github\NBTLibrary\src\main\java\com\tuershen\nbtlibrary" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.NBTLibrary [init]">
+    <configuration name="NBTLibrary [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NBTLibrary [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NBTLibrary [processResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="processResources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.NBTLibrary [init]" />
+        <item itemvalue="Gradle.NBTLibrary [dependencies]" />
+        <item itemvalue="Gradle.NBTLibrary [processResources]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cb12e52-284f-4fd6-a1c6-1099a4af8ab1" name="Default Changelist" comment="" />
+      <created>1609143367317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609143367317</updated>
+      <workItem from="1609143368604" duration="421000" />
+      <workItem from="1609143807577" duration="98000" />
+      <workItem from="1609143944238" duration="46000" />
+      <workItem from="1609144019558" duration="402000" />
+      <workItem from="1609158161021" duration="1000" />
+      <workItem from="1609158300925" duration="324000" />
+      <workItem from="1609169494419" duration="113000" />
+      <workItem from="1609227764108" duration="69000" />
+      <workItem from="1609246811979" duration="25000" />
+      <workItem from="1609273686800" duration="7000" />
+      <workItem from="1609273826872" duration="6000" />
+      <workItem from="1609306738214" duration="68000" />
+      <workItem from="1609307774272" duration="330000" />
+      <workItem from="1609308171909" duration="27000" />
+      <workItem from="1609311376820" duration="114000" />
+      <workItem from="1609311506678" duration="1442000" />
+      <workItem from="1609312972542" duration="4605000" />
+      <workItem from="1609317976528" duration="6000" />
+      <workItem from="1609321529491" duration="2950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1609143719728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609143719728" />
+    <state x="1177" y="364" key="#com.intellij.ide.util.MemberChooser" timestamp="1609323441437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1177" y="364" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609323441437" />
+    <state x="519" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609322530205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609322530205" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609312257098">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312257098" />
+    <state x="634" y="260" key="FileChooserDialogImpl" timestamp="1609311516483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609311516483" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1609312022510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312022510" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1609312022510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312022510" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1609312022510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312022510" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1609312022510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312022510" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1609311517613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609311517613" />
+    <state x="575" y="188" key="SettingsEditor" timestamp="1609317621801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="575" y="188" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609317621801" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1609312974252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312974252" />
+    <state x="723" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609312892711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609312892711" />
+    <state x="636" y="253" width="786" height="534" key="find.popup" timestamp="1609143602783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="786" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609143602783" />
+  </component>
+</project>
