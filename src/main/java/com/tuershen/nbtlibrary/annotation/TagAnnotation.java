@@ -7,5 +7,7 @@ import java.lang.annotation.Target;
 @Target({java.lang.annotation.ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TagAnnotation {
+
     String tagType();
+
 }

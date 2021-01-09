@@ -5,10 +5,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../NBTEditPanel" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../AvaritiaTools" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../NBTEditPanel" />
+            <option value="$PROJECT_DIR$/../AvaritiaTools" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
@@ -19,6 +19,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../NBTLibrary-hide" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../NBTLibrary-hide" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />

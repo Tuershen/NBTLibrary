@@ -23,7 +23,7 @@ public class NBTLibraryMain extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("§e作者:兔儿神");
         Bukkit.getConsoleSender().sendMessage("§e插件已开源，发现bug可以加群反馈，感激不尽");
         Bukkit.getConsoleSender().sendMessage("§e插件交流群:978420514");
-        Bukkit.getConsoleSender().sendMessage("§e最新版本: v1.0");
+        Bukkit.getConsoleSender().sendMessage("§e最新版本: v1.0.2");
         registerBStats();
     }
 

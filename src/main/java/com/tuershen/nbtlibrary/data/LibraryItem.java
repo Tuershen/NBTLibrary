@@ -13,11 +13,22 @@ public class LibraryItem implements Serializable {
 
     private String id;
 
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    private int amount;
+
     private TagCompound tagCompound;
 
-    public LibraryItem(String id, TagCompound tagCompound) {
+    public LibraryItem(String id, int amount, TagCompound tagCompound) {
         this.id = id;
         this.tagCompound = tagCompound;
+        this.amount = amount;
     }
 
     public String getId() {
@@ -41,11 +52,8 @@ public class LibraryItem implements Serializable {
     public String toString() {
         return "LibraryItem{" +
                 "id='" + id + '\'' +
+                ", amount=" + amount +
                 ", tagCompound=" + tagCompound +
                 '}';
     }
-
-
-
-
 }

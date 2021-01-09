@@ -6,13 +6,13 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TagCompound extends TagBase implements Serializable {
+public class TagCompound<T extends TagBase> extends TagBase implements Serializable {
 
     private static final long serialVersionUID = 6962586368452458832L;
 
-    private Map<String, TagBase> map;
+    private Map<String, T> map;
 
-    public TagCompound(Map<String, TagBase> map){
+    public TagCompound(Map<String, T> map){
         this.map = map;
     }
 
@@ -20,11 +20,11 @@ public class TagCompound extends TagBase implements Serializable {
         this.map = new HashMap<>();
     }
 
-    public TagCompound (String key, TagBase tagBase) {
+    public TagCompound (String key, T tagBase) {
         this.map.put(key, tagBase);
     }
 
-    public Map<String, TagBase> getMap() {
+    public Map<String, T> getMap() {
         if (this.map == null || this.map.size() == 0){
             this.map = new HashMap<>();
         }
@@ -32,7 +32,7 @@ public class TagCompound extends TagBase implements Serializable {
     }
 
     @TagAnnotation( tagType = "Compound" )
-    public void setMap(Map<String, TagBase> map) {
+    public void setMap(Map<String, T> map) {
         this.map = map;
     }
 
@@ -50,11 +50,15 @@ public class TagCompound extends TagBase implements Serializable {
     }
 
     public TagList getList(String key) {
-        return (TagList) this.map.get(key);
+        T list = this.map.get(key);
+        if (list.getTypeId() == 9) return (TagList) list;
+        return null;
     }
 
     public TagCompound getCompound(String key){
-        return (TagCompound) this.map.get(key);
+        T map = this.map.get(key);
+        if (map.getTypeId() == 10) return (TagCompound) map;
+        return null;
     }
 
     public TagInt getInt(String key){
@@ -85,39 +89,39 @@ public class TagCompound extends TagBase implements Serializable {
         return (TagByte) this.map.get(key);
     }
 
-    public <T extends TagBase> void set(String key, T tag) {
+    public void set(String key, T tag) {
         this.map.put(key, tag);
     }
 
-    public void setInt(String key, TagInt tagInt) {
+    public void setInt(String key, T tagInt) {
         this.map.put(key, tagInt);
     }
 
-    public void setString(String key, TagString data){
+    public void setString(String key, T data){
         if (data != null) {
             this.map.put(key, data);
         }
     }
 
-    public void setDouble(String key, TagDouble data){
+    public void setDouble(String key, T data){
         this.map.put(key, data);
     }
-    public void setFloat(String key, TagFloat data){
-        this.map.put(key, data);
-    }
-
-    public void setShort(String key, TagShort data){
-        this.map.put(key, data);
-    }
-    public void setLong(String key, TagLong data){
+    public void setFloat(String key, T data){
         this.map.put(key, data);
     }
 
-    public void setByte(String key, TagByte data){
+    public void setShort(String key, T data){
+        this.map.put(key, data);
+    }
+    public void setLong(String key, T data){
         this.map.put(key, data);
     }
 
-    public void put(String key, TagBase tagBase){
+    public void setByte(String key, T data){
+        this.map.put(key, data);
+    }
+
+    public void put(String key, T tagBase){
         this.map.put(key, tagBase);
     }
 

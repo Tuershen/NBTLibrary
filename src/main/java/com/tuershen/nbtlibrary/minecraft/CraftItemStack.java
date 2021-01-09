@@ -40,7 +40,7 @@ public class CraftItemStack {
     public static MinecraftItemStack asNMSCopy(ItemStack itemStack){
         Object item = null;
         try {
-            item = asNMSCopy.invoke(craftItemStackClass,itemStack);
+            item = asNMSCopy.invoke(craftItemStackClass, itemStack);
         } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }

@@ -169,14 +169,33 @@ public interface NBTTagCompoundApi {
      */
     <T extends TagBase> void set(String key, T base);
 
+    /**
+     * 获取nmsNBT
+     * @return
+     */
     Object getNMSCompound();
 
+    /**
+     * 创建一个nmsNBT
+     */
     void newNBTTagCompound();
 
+    /**
+     * 获取nbtApi
+     * @return
+     */
     TagCompound getNBTTagCompoundApi();
 
+    /**
+     * 移除键值
+     * @param key
+     */
     void remove(String key);
 
+    /**
+     * 设置当前Compound
+     * @param tagCompound
+     */
     void setCompoundMap(TagCompound tagCompound);
 
 

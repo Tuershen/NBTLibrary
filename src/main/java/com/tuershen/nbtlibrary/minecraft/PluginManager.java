@@ -32,7 +32,7 @@ public class PluginManager implements CompoundLibraryApi {
 
     @Override
     public SerializableInventory getSerializableInventoryApi() {
-        return AbstractNBTTagCompound.getSerializableInventoryApi();
+        return AbstractNBTTagCompound.getSerializableInventory();
     }
 
     @Override
@@ -41,7 +41,6 @@ public class PluginManager implements CompoundLibraryApi {
     }
 
     public SerializableEntity getSerializableEntityApi(){
-
 
         return null;
     }

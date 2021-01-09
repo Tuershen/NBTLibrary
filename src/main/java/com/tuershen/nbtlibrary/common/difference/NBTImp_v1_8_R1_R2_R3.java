@@ -1,5 +1,6 @@
 package com.tuershen.nbtlibrary.common.difference;
 
+import com.tuershen.nbtlibrary.api.SerializableInventory;
 import com.tuershen.nbtlibrary.api.SerializableItemApi;
 
 /**
@@ -29,6 +30,8 @@ public class NBTImp_v1_8_R1_R2_R3 extends NBTImp_v1_7_R1_R2_R3 {
         }
         return nbtImp_1_8_r1;
     }
+
+
 
 
 

@@ -1,6 +1,7 @@
 package com.tuershen.nbtlibrary.common.difference;
 
 
+import com.tuershen.nbtlibrary.api.SerializableInventory;
 import com.tuershen.nbtlibrary.api.SerializableItemApi;
 import com.tuershen.nbtlibrary.minecraft.nbt.TagBase;
 
@@ -30,6 +31,15 @@ public class NBTImp_v1_12_R1 extends NBTImp_v1_7_R1_R2_R3 {
         }
         return nbtImp_1_12_r1;
     }
+
+
+    public static SerializableInventory getSerializableInventory() {
+        if (nbtImp_1_12_r1 == null){
+            nbtImp_1_12_r1 = new NBTImp_v1_12_R1();
+        }
+        return nbtImp_1_12_r1;
+    }
+
 
 
     @Override

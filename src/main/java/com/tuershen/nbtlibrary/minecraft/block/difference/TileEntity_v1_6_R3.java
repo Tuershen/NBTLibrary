@@ -93,7 +93,7 @@ public class TileEntity_v1_6_R3 extends AbstractMinecraftEntityTile {
         try {
             //创建新实体并从指定的NBT加载其数据
             //数据源this.nbtTagCompound
-            load.invoke(this.tileEntity,this.nbtTagCompound);
+            load.invoke(this.tileEntity, this.nbtTagCompound);
         } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }

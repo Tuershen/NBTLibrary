@@ -17,11 +17,11 @@ public class LibraryInventory implements Serializable {
 
     private int maxStackSize;
 
+    private String[] libraryItems;
+
     public LibraryInventory() {
 
     }
-
-    private String[] libraryItems;
 
     public LibraryInventory(int size, String title, int maxStackSize, String[] libraryItems) {
         this.size = size;

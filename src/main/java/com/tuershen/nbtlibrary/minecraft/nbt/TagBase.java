@@ -43,4 +43,98 @@ public abstract class TagBase implements Serializable {
         return null;
     }
 
+    public TagCompound toTagCompound(){
+        if (this instanceof TagCompound) {
+            return (TagCompound) this;
+        }
+        return new TagCompound();
+    }
+
+    public TagList toList(){
+        if (this instanceof TagList) {
+            return (TagList) this;
+        }
+        return new TagList();
+    }
+
+    public TagInt toTagInt(){
+        if (this instanceof TagInt) {
+            return (TagInt) this;
+        }
+        return new TagInt();
+    }
+
+    public TagByte toTagByte(){
+        if (this instanceof TagByte) {
+            return (TagByte) this;
+        }
+        return new TagByte();
+    }
+
+    public TagShort toTagShort(){
+        if (this instanceof TagShort) {
+            return (TagShort) this;
+        }
+        return new TagShort();
+    }
+
+    public TagString toTagString(){
+        if (this instanceof TagString) {
+            return (TagString) this;
+        }
+        return new TagString();
+    }
+
+    public TagLong toTagLong(){
+        if (this instanceof TagLong) {
+            return (TagLong) this;
+        }
+        return new TagLong();
+    }
+
+
+    public TagIntArray toTagIntArray(){
+        if (this instanceof TagIntArray) {
+            return (TagIntArray) this;
+        }
+        return new TagIntArray();
+    }
+
+
+
+    public TagByteArray toTagByteArray(){
+        if (this instanceof TagByteArray) {
+            return (TagByteArray) this;
+        }
+        return new TagByteArray();
+    }
+
+
+    public TagLongArray toTagLongArray(){
+        if (this instanceof TagLongArray) {
+            return (TagLongArray) this;
+        }
+        return new TagLongArray();
+    }
+
+
+    public TagDouble toTagDouble(){
+        if (this instanceof TagDouble) {
+            return (TagDouble) this;
+        }
+        return new TagDouble();
+    }
+
+
+    public TagFloat toTagFloat(){
+        if (this instanceof TagFloat) {
+            return (TagFloat) this;
+        }
+        return new TagFloat();
+    }
+
+
+
+
+
 }

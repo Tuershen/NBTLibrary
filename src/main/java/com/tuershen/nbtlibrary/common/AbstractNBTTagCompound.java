@@ -85,9 +85,10 @@ public abstract class AbstractNBTTagCompound implements
         return differenceCompoundEnum.getSerializableItemApi();
     }
 
-    public static SerializableInventory getSerializableInventoryApi(){
+    public static SerializableInventory getSerializableInventory(){
         return differenceCompoundEnum.getSerializableInventoryApi();
     }
+
 
 
     /**
@@ -515,9 +516,9 @@ public abstract class AbstractNBTTagCompound implements
     @Override
     public ItemStack deserialize(String paramString) {
         LibraryItem libraryItem = SerializableStream.deserializeObj(paramString);
-        TagCompound tagCompound = libraryItem.getTagCompound();
-        Object tag = deserializeNBTTagCompound(tagCompound);
+        Object tag = deserializeNBTTagCompound(libraryItem.getTagCompound());
         ItemStack itemStack = LibraryUtil.createItem(libraryItem.getId().split(":"));
+        itemStack.setAmount(libraryItem.getAmount());
         MinecraftItemStack nmsItem = CraftItemStack.asNMSCopy(itemStack);
         if (tag != null){
             nmsItem.setMinecraftItemStackTag(tag);
@@ -533,17 +534,16 @@ public abstract class AbstractNBTTagCompound implements
     @Override
     public String serialize(ItemStack item) {
         Object obj = CraftItemStack.asNMSCopy(item).getMinecraftItemStackTag().getNMSCompound();
-        TagCompound tagCompound = compoundCrossoverValue(obj);
-        String id = combination(item);
-        return SerializableStream.getByteStream(new LibraryItem(id, tagCompound));
+        return SerializableStream.getByteStream(new LibraryItem(combination(item), item.getAmount(), compoundCrossoverValue(obj)));
     }
+
 
 
     /**
      *
      * @param t
      * @param <T>
-     * @return
+     * @return a
      */
     @Override
     public <T extends TagBase> String getTagBaseByteStream(T t) {
@@ -569,7 +569,12 @@ public abstract class AbstractNBTTagCompound implements
         inventory.setMaxStackSize(libraryInventory.getMaxStackSize());
         String[] libraryItems = libraryInventory.getLibraryItems();
         for (int i = 0; i < libraryItems.length ; i++) {
-            ItemStack deserialize = deserialize(libraryItems[i]);
+            String tile = libraryItems[i];
+            if (tile == null) {
+                inventory.setItem(i, new ItemStack(Material.AIR));
+                continue;
+            }
+            ItemStack deserialize = deserialize(tile);
             inventory.setItem(i, deserialize);
         }
         return inventory;
@@ -881,110 +886,69 @@ enum DifferenceCompoundEnum implements DifferenceCompound {
         @Override public SerializableItemApi getSerializableItemApi() {
             return NBTImp_v1_6_R3.serializableItemApi();
         }
-
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_6_R3.getSerializableInventoryApi();
-        }
-
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_6_R3.getSerializableInventory(); }
     },
     V1_7_R1("v1_7_R1"){
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_7_R1_R2_R3.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_7_R1_R2_R3.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_7_R1_R2_R3.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_7_R1_R2_R3.getSerializableInventory(); }
     },
     V1_7_R2("v1_7_R2"){
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_7_R1_R2_R3.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_7_R1_R2_R3.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_7_R1_R2_R3.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_7_R1_R2_R3.getSerializableInventory(); }
     },
     V1_7_R3("v1_7_R3"){
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_7_R1_R2_R3.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_7_R1_R2_R3.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_7_R1_R2_R3.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_7_R1_R2_R3.getSerializableInventory(); }
     },
     V1_7_R4("v1_7_R4"){
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_7_R4.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() {
             return NBTImp_v1_7_R4.serializableItemApi();
         }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_7_R4.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_7_R4.getSerializableInventory(); }
     },
     V1_8_R1("v1_8_R1"){
         @Override public NBTTagCompoundApi getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_8_R1_R2_R3.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_8_R1_R2_R3.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_8_R1_R2_R3.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_8_R1_R2_R3.getSerializableInventory(); }
     },
     V1_8_R2("v1_8_R2"){
         @Override public NBTTagCompoundApi getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_8_R1_R2_R3.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_8_R1_R2_R3.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_8_R1_R2_R3.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_8_R1_R2_R3.getSerializableInventory(); }
     },
     V1_8_R3("v1_8_R3"){
         @Override public NBTTagCompoundApi getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_8_R1_R2_R3.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_8_R1_R2_R3.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_8_R1_R2_R3.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_8_R1_R2_R3.getSerializableInventory(); }
     },
     V1_9_R1("v1_9_R1"){
         @Override public NBTTagCompoundApi getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_9_R1_R2.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_9_R1_R2.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_9_R1_R2.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_9_R1_R2.getSerializableInventory(); }
     },
     V1_9_R2("v1_9_R2"){
         @Override public NBTTagCompoundApi getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_9_R1_R2.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_9_R1_R2.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_9_R1_R2.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_9_R1_R2.getSerializableInventory(); }
     },
     V1_10_R1("v1_10_R1") {
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_10_R1.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_10_R1.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_10_R1.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_10_R1.getSerializableInventory(); }
     },
     V1_11_R1("v1_11_R1") {
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_11_R1.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_11_R1.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_11_R1.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_11_R1.getSerializableInventory(); }
     },
     V1_12_R1("v1_12_R1") {
         @Override public AbstractNBTTagCompound getAbstractNBTTagCompound(Object nbtTagCompound) { return NBTImp_v1_12_R1.getInstance(nbtTagCompound); }
         @Override public SerializableItemApi getSerializableItemApi() { return NBTImp_v1_12_R1.serializableItemApi(); }
-        @Override
-        public SerializableInventory getSerializableInventoryApi() {
-            return NBTImp_v1_12_R1.getSerializableInventoryApi();
-        }
+        @Override public SerializableInventory getSerializableInventoryApi() { return NBTImp_v1_12_R1.getSerializableInventory(); }
     };
 
     String version;

@@ -1,6 +1,7 @@
 package com.tuershen.nbtlibrary.common.difference;
 
 import com.tuershen.nbtlibrary.api.NBTTagCompoundApi;
+import com.tuershen.nbtlibrary.api.SerializableInventory;
 import com.tuershen.nbtlibrary.api.SerializableItemApi;
 import com.tuershen.nbtlibrary.common.AbstractNBTTagCompound;
 import com.tuershen.nbtlibrary.minecraft.nbt.TagBase;
@@ -33,6 +34,13 @@ public class NBTImp_v1_7_R1_R2_R3 extends AbstractNBTTagCompound {
     }
 
     public static SerializableItemApi serializableItemApi(){
+        if (nbtImp_1_7_r1_r2_r3 == null){
+            nbtImp_1_7_r1_r2_r3 = new NBTImp_v1_7_R1_R2_R3();
+        }
+        return nbtImp_1_7_r1_r2_r3;
+    }
+
+    public static SerializableInventory getSerializableInventory() {
         if (nbtImp_1_7_r1_r2_r3 == null){
             nbtImp_1_7_r1_r2_r3 = new NBTImp_v1_7_R1_R2_R3();
         }
